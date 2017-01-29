@@ -1,0 +1,27 @@
+language: php
+
+sudo: false
+
+php:
+  - 5.4
+  - 5.5
+  - 5.6
+  - 7.0
+
+matrix:
+  fast_finish: true
+
+  include:
+    - php: 5.6
+      env: PHPCS=1 DEFAULT=0
+
+before_script:
+  - composer self-update
+  - composer install --prefer-dist --no-interaction
+
+script:
+  - phpunit
+  - sh -c "if [ '$PHPCS' = '1' ]; then vendor/bin/phpcs -p --extensions=php --standard=psr2 --ignore=vendor --ignore=tests . ; fi"
+
+notifications:
+  email: false
