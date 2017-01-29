@@ -1,0 +1,24 @@
+{
+	"name": "drmonkeyninja/social-share-url",
+	"description": "A standalone utility library for generating URLs to share content on numerous social media platforms.",
+	"keywords": ["social"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Andy Carter",
+			"role": "Author",
+			"homepage": "http://andy-carter.com"
+		}
+	],
+	"autoload": {
+        "psr-4": {
+            "drmonkeyninja\\SocialShareUrl\\": "src/"
+        }
+	},
+	"require": {
+		"php": ">=5.4"
+	},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "2.*"
+    }
+}
