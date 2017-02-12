@@ -1,7 +1,7 @@
 SocialShareUrl
 ==============
 
-[![Build Status](https://travis-ci.org/drmonkeyninja/social-share-url.svg)](https://travis-ci.org/drmonkeyninja/social-share-url)
+[![Build Status](https://travis-ci.org/drmonkeyninja/social-share-url.svg)](https://travis-ci.org/drmonkeyninja/social-share-url) [![Latest Stable Version](https://poser.pugx.org/drmonkeyninja/social-share-url/version)](https://packagist.org/packages/drmonkeyninja/social-share-url)
 
 A standalone utility library for generating URLs to share content on numerous social media platforms.
 
@@ -27,8 +27,6 @@ To generate a social share URL simply use the `getUrl()` method passing it the n
     $SocialShareUrl = new SocialShareUrl();
     $url = $SocialShareUrl->getUrl('facebook', 'http://example.com');
 
-A full list of the available social networks can be found in the `src/data/stubs.php` file.
-
 You can pass further parameters to be included in the share URL by passing them as an array to the third parameter:-
 
 	$url = $SocialShareUrl->getUrl(
@@ -41,6 +39,10 @@ Supported parameters include:-
 
 * `text`
 * `image`
+
+A full list of the available social networks can be found in the `src/data/stubs.php` file. You can also return a full list of the social networks supported by `SocialShareUrl` by using the `getServices()` method:-
+
+	$services = $SocialShareUrl->getServices();
 
 License
 -------
