@@ -3,7 +3,7 @@ $stubs = [
     'delicious' => 'https://del.icio.us/post?url={url}&title={text}',
     'digg' => 'https://digg.com/submit?url={url}&title={text}',
     'email' => 'mailto:?subject={text}&body={url}',
-    'evernote' => 'http://www.evernote.com/clip.action?url={url}&title={text}',
+    'evernote' => 'https://www.evernote.com/clip.action?url={url}&title={text}',
     'facebook' => 'https://www.facebook.com/sharer/sharer.php?u={url}',
     'friendfeed' => 'http://www.friendfeed.com/share?url={url}&title={text}',
     'google' => 'http://www.google.com/bookmarks/mark?op=edit&bkmk={url}&title={text}',

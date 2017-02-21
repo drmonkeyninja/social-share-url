@@ -7,7 +7,7 @@ class SocialShareUrlTest extends \PHPUnit_Framework_TestCase
         'delicious' => 'https://del.icio.us/post?url=http%3A%2F%2Fexample.com&title=Foo+bar',
         'digg' => 'https://digg.com/submit?url=http%3A%2F%2Fexample.com&title=Foo+bar',
         'email' => 'mailto:?subject=Foo+bar&body=http%3A%2F%2Fexample.com',
-        'evernote' => 'http://www.evernote.com/clip.action?url=http%3A%2F%2Fexample.com&title=Foo+bar',
+        'evernote' => 'https://www.evernote.com/clip.action?url=http%3A%2F%2Fexample.com&title=Foo+bar',
         'facebook' => 'https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fexample.com',
         'friendfeed' => 'http://www.friendfeed.com/share?url=http%3A%2F%2Fexample.com&title=Foo+bar',
         'google' => 'http://www.google.com/bookmarks/mark?op=edit&bkmk=http%3A%2F%2Fexample.com&title=Foo+bar',
