@@ -4,7 +4,7 @@ use \drmonkeyninja\SocialShareUrl\SocialShareUrl;
 class SocialShareUrlTest extends \PHPUnit_Framework_TestCase
 {
     protected $stubs = [
-        'delicious' => 'http://delicious.com/post?url=http%3A%2F%2Fexample.com&title=Foo+bar',
+        'delicious' => 'https://del.icio.us/post?url=http%3A%2F%2Fexample.com&title=Foo+bar',
         'digg' => 'http://digg.com/submit?url=http%3A%2F%2Fexample.com&title=Foo+bar',
         'email' => 'mailto:?subject=Foo+bar&body=http%3A%2F%2Fexample.com',
         'evernote' => 'http://www.evernote.com/clip.action?url=http%3A%2F%2Fexample.com&title=Foo+bar',

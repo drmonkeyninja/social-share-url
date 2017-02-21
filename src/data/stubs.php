@@ -1,6 +1,6 @@
 <?php
 $stubs = [
-    'delicious' => 'http://delicious.com/post?url={url}&title={text}',
+    'delicious' => 'https://del.icio.us/post?url={url}&title={text}',
     'digg' => 'http://digg.com/submit?url={url}&title={text}',
     'email' => 'mailto:?subject={text}&body={url}',
     'evernote' => 'http://www.evernote.com/clip.action?url={url}&title={text}',
