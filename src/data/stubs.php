@@ -1,7 +1,7 @@
 <?php
 $stubs = [
     'delicious' => 'https://del.icio.us/post?url={url}&title={text}',
-    'digg' => 'http://digg.com/submit?url={url}&title={text}',
+    'digg' => 'https://digg.com/submit?url={url}&title={text}',
     'email' => 'mailto:?subject={text}&body={url}',
     'evernote' => 'http://www.evernote.com/clip.action?url={url}&title={text}',
     'facebook' => 'https://www.facebook.com/sharer/sharer.php?u={url}',
