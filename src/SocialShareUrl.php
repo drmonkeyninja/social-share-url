@@ -9,6 +9,13 @@ class SocialShareUrl
 {
 
     /**
+     * Service share URL templates.
+     *
+     * @var array
+     */
+    protected $stubs = [];
+
+    /**
      * URL tokens
      *
      * @var array
