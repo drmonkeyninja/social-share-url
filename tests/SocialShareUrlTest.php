@@ -1,7 +1,8 @@
 <?php
 use \drmonkeyninja\SocialShareUrl\SocialShareUrl;
+use PHPUnit\Framework\TestCase;
 
-class SocialShareUrlTest extends \PHPUnit_Framework_TestCase
+class SocialShareUrlTest extends TestCase
 {
     protected $stubs = [
         'delicious' => 'https://del.icio.us/post?url=http%3A%2F%2Fexample.com&title=Foo+bar',
