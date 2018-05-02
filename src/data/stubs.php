@@ -19,5 +19,6 @@ $stubs = [
     'telegram' => 'https://telegram.me/share/url?url={url}&text={text}',
     'tumblr' => 'http://www.tumblr.com/share?v=3&u={url}&t={text}',
     'twitter' => 'https://twitter.com/intent/tweet?text={text}&url={url}',
+    'vk' => 'https://vk.com/share.php?title={text}&url={url}',
     'whatsapp' => 'whatsapp://send?text={text}%20{url}'
 ];
