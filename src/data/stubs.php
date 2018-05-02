@@ -16,6 +16,7 @@ $stubs = [
     'slashdot' => 'http://slashdot.org/bookmark.pl?url={url}&title={text}',
     'stumbleupon' => 'http://www.stumbleupon.com/submit?url={url}&title={text}',
     'technorati' => 'http://technorati.com/faves?add={url}&title={text}',
+    'telegram' => 'https://telegram.me/share/url?url={url}&text={text}',
     'tumblr' => 'http://www.tumblr.com/share?v=3&u={url}&t={text}',
     'twitter' => 'https://twitter.com/intent/tweet?text={text}&url={url}',
     'whatsapp' => 'whatsapp://send?text={text}%20{url}'
