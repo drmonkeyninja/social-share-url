@@ -5,7 +5,7 @@ SocialShareUrl
 
 A standalone utility library for generating URLs to share content on numerous social media platforms.
 
-Social Share currently supports Delicious, Digg, Evernote, Facebook, Friend Feed, Google Bookmarks, Google+, LinkedIn, Newsvine, Pinterest, Pocket, Reddit, Slashdot, simple email, StumbleUpon, Technorati, Tumblr, Twitter and WhatsApp.
+Social Share currently supports Delicious, Digg, Evernote, Facebook, Friend Feed, Google Bookmarks, Google+, Hacker News, LinkedIn, Newsvine, Pinterest, Pocket, Reddit, Slashdot, simple email, StumbleUpon, Technorati, Tumblr, Twitter, VK, WhatsApp and Xing.
 
 Requirements
 ------------
