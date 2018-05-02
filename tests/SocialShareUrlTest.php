@@ -13,6 +13,7 @@ class SocialShareUrlTest extends TestCase
         'friendfeed' => 'http://www.friendfeed.com/share?url=http%3A%2F%2Fexample.com&title=Foo+bar',
         'google' => 'http://www.google.com/bookmarks/mark?op=edit&bkmk=http%3A%2F%2Fexample.com&title=Foo+bar',
         'gplus' => 'https://plus.google.com/share?url=http%3A%2F%2Fexample.com',
+        'hackernews' => 'https://news.ycombinator.com/submitlink?u=http%3A%2F%2Fexample.com&t=Foo+bar',
         'linkedin' => 'http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fexample.com&title=Foo+bar',
         'newsvine' => 'http://www.newsvine.com/_tools/seed&save?u=http%3A%2F%2Fexample.com&h=Foo+bar',
         'pinterest' => 'http://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fexample.com&media=http%3A%2F%2Fexample.com%2Ftest.jpg&description=Foo+bar',

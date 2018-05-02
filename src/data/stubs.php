@@ -8,6 +8,7 @@ $stubs = [
     'friendfeed' => 'http://www.friendfeed.com/share?url={url}&title={text}',
     'google' => 'http://www.google.com/bookmarks/mark?op=edit&bkmk={url}&title={text}',
     'gplus' => 'https://plus.google.com/share?url={url}',
+    'hackernews' => 'https://news.ycombinator.com/submitlink?u={url}&t={text}',
     'linkedin' => 'http://www.linkedin.com/shareArticle?mini=true&url={url}&title={text}',
     'newsvine' => 'http://www.newsvine.com/_tools/seed&save?u={url}&h={text}',
     'pinterest' => 'http://www.pinterest.com/pin/create/button/?url={url}&media={image}&description={text}',
