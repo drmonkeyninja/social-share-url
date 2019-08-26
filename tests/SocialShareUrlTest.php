@@ -25,7 +25,7 @@ class SocialShareUrlTest extends TestCase
         'tumblr' => 'http://www.tumblr.com/share?v=3&u=http%3A%2F%2Fexample.com&t=Foo+bar',
         'twitter' => 'https://twitter.com/intent/tweet?text=Foo+bar&url=http%3A%2F%2Fexample.com',
         'vk' => 'https://vk.com/share.php?title=Foo+bar&url=http%3A%2F%2Fexample.com',
-        'whatsapp' => 'whatsapp://send?text=Foo+bar%20http%3A%2F%2Fexample.com',
+        'whatsapp' => 'https://api.whatsapp.com/send?text=Foo+bar%20http%3A%2F%2Fexample.com',
         'xing' => 'https://www.xing.com/app/user?op=share;url=http%3A%2F%2Fexample.com;title=Foo+bar',
     ];
 

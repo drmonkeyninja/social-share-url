@@ -20,6 +20,6 @@ $stubs = [
     'tumblr' => 'http://www.tumblr.com/share?v=3&u={url}&t={text}',
     'twitter' => 'https://twitter.com/intent/tweet?text={text}&url={url}',
     'vk' => 'https://vk.com/share.php?title={text}&url={url}',
-    'whatsapp' => 'whatsapp://send?text={text}%20{url}',
+    'whatsapp' => 'https://api.whatsapp.com/send?text={text}%20{url}',
     'xing' => 'https://www.xing.com/app/user?op=share;url={url};title={text}',
 ];
