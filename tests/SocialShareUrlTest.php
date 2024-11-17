@@ -5,6 +5,7 @@ use PHPUnit\Framework\TestCase;
 class SocialShareUrlTest extends TestCase
 {
     protected $stubs = [
+        'bluesky' => 'https://bsky.app/intent/compose?text=Foo+bar+http%3A%2F%2Fexample.com',
         'delicious' => 'https://del.icio.us/post?url=http%3A%2F%2Fexample.com&title=Foo+bar',
         'digg' => 'https://digg.com/submit?url=http%3A%2F%2Fexample.com&title=Foo+bar',
         'email' => 'mailto:?subject=Foo+bar&body=http%3A%2F%2Fexample.com',
