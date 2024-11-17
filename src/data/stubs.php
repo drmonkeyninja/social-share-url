@@ -1,5 +1,6 @@
 <?php
 $stubs = [
+    'bluesky' => 'https://bsky.app/intent/compose?text={text}%20{url}',
     'delicious' => 'https://del.icio.us/post?url={url}&title={text}',
     'digg' => 'https://digg.com/submit?url={url}&title={text}',
     'email' => 'mailto:?subject={text}&body={url}',
